@@ -3,7 +3,7 @@ package br.com.renatoganske.cm.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.renatoganske.cm.exception.ExplosaoException;
+import br.com.renatoganske.cm.excecao.ExplosaoException;
 
 public class Campo {
 

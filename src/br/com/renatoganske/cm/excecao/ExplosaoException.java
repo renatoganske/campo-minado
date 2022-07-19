@@ -1,4 +1,4 @@
-package br.com.renatoganske.cm.exception;
+package br.com.renatoganske.cm.excecao;
 
 public class ExplosaoException extends RuntimeException{
 

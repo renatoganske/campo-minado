@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.renatoganske.cm.exception.ExplosaoException;
+import br.com.renatoganske.cm.excecao.ExplosaoException;
 
 class CampoTeste {
 
