@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import br.com.renatoganske.cm.excecao.ExplosaoException;
 import br.com.renatoganske.cm.excecao.SairException;
-import br.com.renatoganske.cm.model.Tabuleiro;
+import br.com.renatoganske.cm.modelo.Tabuleiro;
 
 public class TabuleiroConsole {
 
@@ -53,7 +53,7 @@ public class TabuleiroConsole {
 				Iterator<Integer> xy = Arrays.stream(digitado.split(","))
 						.map(e -> Integer.parseInt(e.trim())).iterator();
 				
-				digitado = capturarValorDigitado("1 - Abrir ou 2 (Des)Marcar: ");
+				digitado = capturarValorDigitado("1 - Abrir ou 2 - (Des)Marcar: ");
 				
 				if("1".equals(digitado)) {
 					tabuleiro.abrir(xy.next(), xy.next());

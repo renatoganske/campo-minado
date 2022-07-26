@@ -1,4 +1,4 @@
-package br.com.renatoganske.cm.model;
+package br.com.renatoganske.cm.modelo;
 
 import java.util.ArrayList;
 import java.util.List;

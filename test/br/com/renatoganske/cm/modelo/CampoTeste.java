@@ -1,4 +1,4 @@
-package br.com.renatoganske.cm.model;
+package br.com.renatoganske.cm.modelo;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import br.com.renatoganske.cm.excecao.ExplosaoException;
+import br.com.renatoganske.cm.modelo.Campo;
 
 class CampoTeste {
 

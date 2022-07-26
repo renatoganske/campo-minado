@@ -1,6 +1,6 @@
 package br.com.renatoganske.cm;
 
-import br.com.renatoganske.cm.model.Tabuleiro;
+import br.com.renatoganske.cm.modelo.Tabuleiro;
 import br.com.renatoganske.cm.visao.TabuleiroConsole;
 
 public class Aplicacao {
